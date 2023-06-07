@@ -1,0 +1,11 @@
+INITIAL_PERIOD = 30  # frames
+INITIAL_SPEED = 8  # pixels/frame
+MAX_NUMBER_OF_BALLS = 5  # balls
+SPEED_INCREASE_PER_PERIOD = 2  # x0.1 pixels/frame/period
+PERIOD_DECREASE_PER_PERIOD = 1  # x0.1 frames/period
+BALL_SIZE_IN_PIXELS = 64  # pixels
+LEFT_AND_RIGHT_MARGINS = 2 * BALL_SIZE_IN_PIXELS  # pixels
+SCREEN_RESOLUTION = '1080p'  # default is 1080p
+CAMERA_RESOLUTION = '720p'  # default is 720p
+CAMERA_FPS = 20  # frames/second
+THEME = 'red'  # choose from the following: black, blue, gray, green, red, white
